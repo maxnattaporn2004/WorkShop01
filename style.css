@@ -1,10 +1,22 @@
 body {
-   font-family: "Prompt", sans-serif;
+  font-family: "Prompt", sans-serif;
   font-weight: 500;
   font-style: italic;
+  background-image: url("https://www.deenabroker.com/assets/img/color-bg/bs1.png"),url('https://www.deenabroker.com/assets/img/color-bg/bs2.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 15% 15%, 90%;
+  background-position: left top;
+
 }
 
-#nav_selecter{
+#nav_selecter {
   text-decoration: none;
-  text-color: rgb(88, 64, 224);
+  color: rgb(88, 64, 224);
+}
+
+.custom-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+
 }
